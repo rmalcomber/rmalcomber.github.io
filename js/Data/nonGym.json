@@ -1,0 +1,147 @@
+[{
+    "id": 0,
+    "letter": "a",
+    "exercise": "Pushups",
+    "unit": 15,
+    "unitSuffix": ""
+}, {
+    "letter": "b",
+    "exercise": "Jumping Jacks",
+    "unit": 50,
+    "unitSuffix": ""
+}, {
+    "letter": "c",
+    "exercise": "Crunches",
+    "unit": 20,
+    "unitSuffix": ""
+}, {
+    "letter": "d",
+    "exercise": "Burpees",
+    "unit": 10,
+    "unitSuffix": ""
+}, {
+    "letter": "e",
+    "exercise": "Wall Sit",
+    "unit": 60,
+    "unitSuffix": "Second"
+}, {
+    "letter": "f",
+    "exercise": "Arm Circles",
+    "unit": 20,
+    "unitSuffix": ""
+}, {
+    "letter": "g",
+    "exercise": "squats",
+    "unit": 20,
+    "unitSuffix": ""
+}, {
+    "letter": "h",
+    "exercise": "Jumping Jacks",
+    "unit": 50,
+    "unitSuffix": ""
+}, {
+    "letter": "i",
+    "exercise": "Plank",
+    "unit": 60,
+    "unitSuffix": "Second"
+}, {
+    "letter": "j",
+    "exercise": "Mountain Climbers",
+    "unit": 20,
+    "unitSuffix": ""
+}, {
+    "letter": "k",
+    "exercise": "Crunches",
+    "unit": 40,
+    "unitSuffix": ""
+}, {
+    "letter": "l",
+    "exercise": "Burpees",
+    "unit": 12,
+    "unitSuffix": ""
+}, {
+    "letter": "m",
+    "exercise": "Squat Jumps",
+    "unit": 15,
+    "unitSuffix": ""
+}, {
+    "letter": "n",
+    "exercise": "Pushups",
+    "unit": 10,
+    "unitSuffix": ""
+}, {
+    "letter": "o",
+    "exercise": "lunges",
+    "unit": 20,
+    "unitSuffix": ""
+}, {
+    "letter": "p",
+    "exercise": "Tricep Dips",
+    "unit": 10,
+    "unitSuffix": ""
+}, {
+    "letter": "q",
+    "exercise": "Jumping Jacks",
+    "unit": 20,
+    "unitSuffix": ""
+}, {
+    "letter": "r",
+    "exercise": "Plank",
+    "unit": 15,
+    "unitSuffix": "Second"
+}, {
+    "letter": "s",
+    "exercise": "Bicycle Crunches",
+    "unit": 30,
+    "unitSuffix": ""
+}, {
+    "letter": "t",
+    "exercise": "Wall Sit",
+    "unit": 60,
+    "unitSuffix": "Second"
+}, {
+    "letter": "u",
+    "exercise": "High Knees",
+    "unit": 40,
+    "unitSuffix": ""
+}, {
+    "letter": "v",
+    "exercise": "Squats",
+    "unit": 30,
+    "unitSuffix": ""
+}, {
+    "letter": "w",
+    "exercise": "Tricep Dips",
+    "unit": 15,
+    "unitSuffix": ""
+}, {
+    "letter": "x",
+    "exercise": "Mountain Climbers",
+    "unit": 10,
+    "unitSuffix": ""
+}, {
+    "letter": "y",
+    "exercise": "Jumping Lunges",
+    "unit": 12,
+    "unitSuffix": ""
+}, {
+    "letter": "z",
+    "exercise": "Crunches",
+    "unit": 30,
+    "unitSuffix": ""
+}, {
+    "letter": " ",
+    "exercise": "",
+    "unit": "",
+    "unitSuffix": ""
+}, {
+    "letter": "@",
+    "exercise": "Reverse Crunch",
+    "unit": "30",
+    "unitSuffix": ""
+}, {
+    "letter": ".",
+    "exercise": "Rest",
+    "unit": "10",
+    "unitSuffix": "Second"
+}]

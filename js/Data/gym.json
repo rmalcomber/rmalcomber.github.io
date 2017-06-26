@@ -1,0 +1,147 @@
+[{
+    "id": 0,
+    "letter": "a",
+    "exercise": "Dumbbell Chest Press",
+    "unit": 15,
+    "unitSuffix": ""
+}, {
+    "letter": "b",
+    "exercise": "Seated Leg Curl",
+    "unit": 15,
+    "unitSuffix": ""
+}, {
+    "letter": "c",
+    "exercise": "Cable Reverse Crunch",
+    "unit": 20,
+    "unitSuffix": ""
+}, {
+    "letter": "d",
+    "exercise": "Adjustable Sit Up Bench",
+    "unit": 10,
+    "unitSuffix": ""
+}, {
+    "letter": "e",
+    "exercise": "Leg Press",
+    "unit": 15,
+    "unitSuffix": ""
+}, {
+    "letter": "f",
+    "exercise": "Arm Cycle",
+    "unit": 20,
+    "unitSuffix": "Minutes"
+}, {
+    "letter": "g",
+    "exercise": "Bicep Curl",
+    "unit": 20,
+    "unitSuffix": ""
+}, {
+    "letter": "h",
+    "exercise": "Seated Leg Curl",
+    "unit": 15,
+    "unitSuffix": ""
+}, {
+    "letter": "i",
+    "exercise": "Shoulder Press",
+    "unit": 20,
+    "unitSuffix": "Second"
+}, {
+    "letter": "j",
+    "exercise": "Climbing Machine",
+    "unit": 20,
+    "unitSuffix": "Minutes"
+}, {
+    "letter": "k",
+    "exercise": "Cable Reverse Crunch",
+    "unit": 10,
+    "unitSuffix": ""
+}, {
+    "letter": "l",
+    "exercise": "Sit Up Bench",
+    "unit": 15,
+    "unitSuffix": ""
+}, {
+    "letter": "m",
+    "exercise": "Triceps Extension",
+    "unit": 15,
+    "unitSuffix": ""
+}, {
+    "letter": "n",
+    "exercise": "Dumbbell Chest Press",
+    "unit": 10,
+    "unitSuffix": ""
+}, {
+    "letter": "o",
+    "exercise": "Calf Press",
+    "unit": 20,
+    "unitSuffix": ""
+}, {
+    "letter": "p",
+    "exercise": "Tricep Dips",
+    "unit": 10,
+    "unitSuffix": ""
+}, {
+    "letter": "q",
+    "exercise": "Seated Leg Curl",
+    "unit": 20,
+    "unitSuffix": ""
+}, {
+    "letter": "r",
+    "exercise": "Shoulder Press",
+    "unit": 15,
+    "unitSuffix": "Second"
+}, {
+    "letter": "s",
+    "exercise": "Pullup Bar",
+    "unit": 5,
+    "unitSuffix": ""
+}, {
+    "letter": "t",
+    "exercise": "Leg Press",
+    "unit": 15,
+    "unitSuffix": ""
+}, {
+    "letter": "u",
+    "exercise": "Pullup Bar",
+    "unit": 5,
+    "unitSuffix": ""
+}, {
+    "letter": "v",
+    "exercise": "Bicep Curl",
+    "unit": 30,
+    "unitSuffix": ""
+}, {
+    "letter": "w",
+    "exercise": "Tricep Dips",
+    "unit": 15,
+    "unitSuffix": ""
+}, {
+    "letter": "x",
+    "exercise": "Climbing Machine",
+    "unit": 10,
+    "unitSuffix": ""
+}, {
+    "letter": "y",
+    "exercise": "Back Extensions",
+    "unit": 12,
+    "unitSuffix": ""
+}, {
+    "letter": "z",
+    "exercise": "Cable Reverse Crunch",
+    "unit": 15,
+    "unitSuffix": ""
+}, {
+    "letter": " ",
+    "exercise": "",
+    "unit": "",
+    "unitSuffix": ""
+}, {
+    "letter": "@",
+    "exercise": "Reverse Crunch",
+    "unit": "15",
+    "unitSuffix": ""
+}, {
+    "letter": ".",
+    "exercise": "Rest",
+    "unit": "10",
+    "unitSuffix": "Second"
+}]

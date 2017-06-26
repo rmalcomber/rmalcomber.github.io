@@ -1,0 +1,92 @@
+<!doctype html>
+<html class="no-js" lang="">
+<!--Version 1.1-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Name to Workout</title>
+    <meta name="description" content="Simple website to enter in your name and an exercise is generated from the letters of your name.">
+    <meta name="keywords" content="Exercise,fitness,nameworkout,fun exercise">
+    <meta name="author" content="Royston Malcomber">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="http://www.malcomberstudios.co.uk/nameworkout/images/smallheader.png">
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <base href="nameworkout">
+</head>
+
+<body ng-app="nameWorkout" ng-controller="calculation as calc" ng-init="calc.init()">
+    <!--  <button class="btn btn-success" ng-click="calc.toJson()">To Json</button> -->
+    <a href="https://github.com/rmalcomber/nameworkout"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+    <div class="jumbotron text-center">
+        <h1 class="text-uppercase">
+        Spell Your Name
+        </h1>
+        <h2>&amp; do the workout</h2>
+        <cite>built by Royston Malcomber</cite>
+    </div>
+    <div class="container text-center buttonContainer">
+        <button class="btn" ng-class="calc.getActiveTab(1) ? 'btn-success active' : 'btn-info'" ng-click="calc.selectTab(1)">Easy</button>
+        <button class="btn" ng-class="calc.getActiveTab(2) ? 'btn-success active' : 'btn-info'" ng-click="calc.selectTab(2)">Medium</button>
+        <button class="btn" ng-class="calc.getActiveTab(3) ? 'btn-success active' : 'btn-info'" ng-click="calc.selectTab(3)">Hard</button>
+        <button class="btn" ng-class="calc.getActiveTab(4) ? 'btn-success active' : 'btn-info'" ng-click="calc.selectTab(4)">Hardcore</button>
+        <!--
+<div class="checkbox">
+    <label>
+
+    </label>
+</div>
+-->
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-push-2 col-md-8">
+
+                <div class="bg-warning animated fadeIn" ng-show="calc.letters.length > 0"><cite>{{calc.hint}}</cite></div>
+                <div class="input-group" style="margin-bottom:50px;">
+                    <span class="input-group-addon">
+                        <input type="checkbox" ng-click="calc.changeExerciseType()"> Gym
+                    </span>
+                    <input id="textname" class="form-control text-center" style="" type="text" ng-model="calc.mainText" ng-change="calc.onNewUpdate()" placeholder="Enter your name">
+
+                    <span class="input-group-btn">
+                                <button id="facebookbutton" type="button" class="btn facebookButton"><span class="fa fa-facebook"></span></button>
+                    </span>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container ng-cloak" ng-repeat="letter in calc.letters track by $index">
+        <div bind-Fade class="row animated fadeIn exerciseRow">
+            <div class="col-xs-4 col-md-push-2 col-md-2 text-left">
+                {{letter.letter | uppercase}}
+            </div>
+
+            <div class="col-xs-8 text-right">
+                {{letter.unit}} {{letter.unitSuffix}} <a ng-href="{{letter.link}}" target="_blank"><strong>{{letter.exercise}}</strong></a>
+            </div>
+
+            <hr/>
+
+
+        </div>
+    </div>
+
+    <script type="application/javascript" src="js/jquery-2.2.1.min.js"></script>
+    <script type="application/javascript" src="js/angular.min.js"></script>
+    <script type="application/javascript" src="js/app.js"></script>
+    <script type="application/javascript" src="js/facebookplugin.min.js"></script>
+
+</body>
+
+</html>
